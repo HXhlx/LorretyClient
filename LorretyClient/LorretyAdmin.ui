@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LorretyAdmin</class>
+ <widget class="QWidget" name="LorretyAdmin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LorretyAdmin</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="Purchase">
+     <column>
+      <property name="text">
+       <string>时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>详细信息</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>倍数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>注数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>价格</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QPushButton" name="refresh">
+     <property name="text">
+      <string>刷新</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
